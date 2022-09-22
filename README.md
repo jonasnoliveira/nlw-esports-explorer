@@ -1,12 +1,12 @@
 # NLW eSports - Trilha Explorer
-![preview](././src/preview.png)
+![preview](././assets/preview.png)
 
 Esse é um projeto super legal que desenvolvi durante o evento **NLW eSports**, realizado pela [Rocketseat](https://github.com/Rocketseat) 🚀. 
 
 🔗 [Para ver o resultado, é só clicar aqui](https://github.com/jonasnoliveira/nlw-esports-explorer/). 🔗
 
 ## 📋 Conceito
-![nlw esports banner](././src/nlw-esports-banner.png)
+![nlw esports banner](././assets/nlw-esports-banner.png)
 
 A temática dessa **Next Level Week** era eSports, e por isso, o desafio da trilha **Explorer** era criar uma página com os games e streamers preferidos do usuário. 🎮
 
