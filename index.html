@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLW eSports</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://github.com/maykbrito.png" alt="Foto de Mayk Brito na frente de um laptop" />
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Meus Jogos</h2>
+                <p>Os games que eu mais curto jogar!</p>
+                <ul class="games-list">
+                    <li>
+                        <a target="_blank" href="https://playvalorant.com/pt-br/">
+                            <img src="https://conteudo.imguol.com.br/c/galeria/44/2020/06/02/valorant-1591100060180_v2_1x1.jpg"
+                                alt="Imagem do Valorant">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.counter-strike.net/" target="_blank">
+                            <img src="data:image/png;base64,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"
+                                alt="Imagem do CSGO">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://latam.battlegrounds.pubg.com/pt-br/">
+                            <img src="https://sm.ign.com/ign_br/cover/p/pubg-battl/pubg-battlegrounds_ejac.jpg"
+                                alt="Imagem do Pubg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Canais e streamers</h2>
+                <p>Lista de canais e transmissões que não perco!</p>
+
+                <ul class="channel-list">
+                    <li>
+                        <a target="_blank" href="https://www.twitch.tv/maykbrito">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/9ce11a2b-ec84-44b1-9c76-b8d29df5fef0-profile_image-150x150.png"
+                                alt="Imagem de Mayk Brito">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="_blank" href="https://www.twitch.tv/gafallen">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/e8b0563d-a036-4bd6-bf3e-5d6b2e9300cf-profile_image-70x70.png"
+                                alt="Imagem do Fallen">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="_blank" href="https://www.twitch.tv/coldzin">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3369db92-cdb2-4b62-83da-eab586aba695-profile_image-70x70.png"
+                                alt="Imagem do Coldzera">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Minhas redes sociais</h2>
+                <p>Se conecte comigo agora mesmo!</p>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/maykbrito">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z"
+                                    stroke="#FA41FE" stroke-width="2" stroke-miterlimit="10" />
+                                <path
+                                    d="M21.5 4.5H10.5C7.18629 4.5 4.5 7.18629 4.5 10.5V21.5C4.5 24.8137 7.18629 27.5 10.5 27.5H21.5C24.8137 27.5 27.5 24.8137 27.5 21.5V10.5C27.5 7.18629 24.8137 4.5 21.5 4.5Z"
+                                    stroke="#FA41FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M22.5 11C23.3284 11 24 10.3284 24 9.5C24 8.67157 23.3284 8 22.5 8C21.6716 8 21 8.67157 21 9.5C21 10.3284 21.6716 11 22.5 11Z"
+                                    fill="#FA41FE" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.youtube.com/maykbrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                                viewBox="0 0 64 64" style=" fill:#000000;">
+                                <linearGradient id="KpzH_ttTMIjq8dhx1zD2pa_52539_gr1" x1="30.999" x2="30.999" y1="16"
+                                    y2="55.342" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#KpzH_ttTMIjq8dhx1zD2pa_52539_gr1)"
+                                    d="M25.008,56.007c-0.003-0.368-0.006-1.962-0.009-3.454l-0.003-1.55 c-6.729,0.915-8.358-3.78-8.376-3.83c-0.934-2.368-2.211-3.045-2.266-3.073l-0.124-0.072c-0.463-0.316-1.691-1.157-1.342-2.263 c0.315-0.997,1.536-1.1,2.091-1.082c3.074,0.215,4.63,2.978,4.694,3.095c1.569,2.689,3.964,2.411,5.509,1.844 c0.144-0.688,0.367-1.32,0.659-1.878C20.885,42.865,15.27,40.229,15.27,30.64c0-2.633,0.82-4.96,2.441-6.929 c-0.362-1.206-0.774-3.666,0.446-6.765l0.174-0.442l0.452-0.144c0.416-0.137,2.688-0.624,7.359,2.433 c1.928-0.494,3.969-0.749,6.074-0.759c2.115,0.01,4.158,0.265,6.09,0.759c4.667-3.058,6.934-2.565,7.351-2.433l0.451,0.145 l0.174,0.44c1.225,3.098,0.813,5.559,0.451,6.766c1.618,1.963,2.438,4.291,2.438,6.929c0,9.591-5.621,12.219-10.588,13.087 c0.563,1.065,0.868,2.402,0.868,3.878c0,1.683-0.007,7.204-0.015,8.402l-2-0.014c0.008-1.196,0.015-6.708,0.015-8.389 c0-2.442-0.943-3.522-1.35-3.874l-1.73-1.497l2.274-0.253c5.205-0.578,10.525-2.379,10.525-11.341c0-2.33-0.777-4.361-2.31-6.036 l-0.43-0.469l0.242-0.587c0.166-0.401,0.894-2.442-0.043-5.291c-0.758,0.045-2.568,0.402-5.584,2.447l-0.384,0.259l-0.445-0.123 c-1.863-0.518-3.938-0.796-6.001-0.806c-2.052,0.01-4.124,0.288-5.984,0.806l-0.445,0.123l-0.383-0.259 c-3.019-2.044-4.833-2.404-5.594-2.449c-0.935,2.851-0.206,4.892-0.04,5.293l0.242,0.587l-0.429,0.469 c-1.536,1.681-2.314,3.712-2.314,6.036c0,8.958,5.31,10.77,10.504,11.361l2.252,0.256l-1.708,1.49 c-0.372,0.325-1.03,1.112-1.254,2.727l-0.075,0.549l-0.506,0.227c-1.321,0.592-5.839,2.162-8.548-2.485 c-0.015-0.025-0.544-0.945-1.502-1.557c0.646,0.639,1.433,1.673,2.068,3.287c0.066,0.19,1.357,3.622,7.28,2.339l1.206-0.262 l0.012,3.978c0.003,1.487,0.006,3.076,0.009,3.444L25.008,56.007z">
+                                </path>
+                                <linearGradient id="KpzH_ttTMIjq8dhx1zD2pb_52539_gr2" x1="32" x2="32" y1="5" y2="59.167"
+                                    gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#1a6dff"></stop>
+                                    <stop offset="1" stop-color="#c822ff"></stop>
+                                </linearGradient>
+                                <path fill="url(#KpzH_ttTMIjq8dhx1zD2pb_52539_gr2)"
+                                    d="M32,58C17.663,58,6,46.337,6,32S17.663,6,32,6s26,11.663,26,26S46.337,58,32,58z M32,8 C18.767,8,8,18.767,8,32s10.767,24,24,24s24-10.767,24-24S45.233,8,32,8z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.youtube.com/maykbrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                                viewBox="0 0 64 64" style=" fill:#000000;">
+                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYa_44019_gr1" x1="19" x2="19" y1="24.858"
+                                    y2="49.041" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#SUJNhpmDQDF27Y3OfwgfYa_44019_gr1)" fill-rule="evenodd"
+                                    d="M22 48L22 26 16 26 16 48 22 48z" clip-rule="evenodd"></path>
+                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYb_44019_gr2" x1="19.382" x2="19.382"
+                                    y1="15.423" y2="23.341" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#SUJNhpmDQDF27Y3OfwgfYb_44019_gr2)" fill-rule="evenodd"
+                                    d="M19.358,23c2.512,0,4.076-1.474,4.076-3.554 c-0.047-2.126-1.564-3.649-4.028-3.649c-2.465,0-4.076,1.475-4.076,3.601c0,2.08,1.563,3.602,3.981,3.602H19.358L19.358,23z"
+                                    clip-rule="evenodd"></path>
+                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYc_44019_gr3" x1="37.386" x2="37.386"
+                                    y1="14.125" y2="49.525" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#SUJNhpmDQDF27Y3OfwgfYc_44019_gr3)" fill-rule="evenodd"
+                                    d="M26.946,48H34V35.911c0-0.648,0.122-1.295,0.313-1.758 c0.52-1.295,1.877-2.635,3.867-2.635c2.607,0,3.821,1.988,3.821,4.901V48h6V35.588c0-6.657-3.085-9.498-7.826-9.498 c-3.886,0-5.124,1.91-6.072,3.91H34v-4h-7.054c0.095,2-0.175,22-0.175,22H26.946z"
+                                    clip-rule="evenodd"></path>
+                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYd_44019_gr4" x1="32" x2="32" y1="6.5" y2="57.5"
+                                    gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#1a6dff"></stop>
+                                    <stop offset="1" stop-color="#c822ff"></stop>
+                                </linearGradient>
+                                <path fill="url(#SUJNhpmDQDF27Y3OfwgfYd_44019_gr4)"
+                                    d="M50,57H14c-3.859,0-7-3.141-7-7V14c0-3.859,3.141-7,7-7h36c3.859,0,7,3.141,7,7v36 C57,53.859,53.859,57,50,57z M14,9c-2.757,0-5,2.243-5,5v36c0,2.757,2.243,5,5,5h36c2.757,0,5-2.243,5-5V14c0-2.757-2.243-5-5-5H14z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
