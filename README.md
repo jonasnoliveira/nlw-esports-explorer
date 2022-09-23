@@ -3,7 +3,7 @@
 
 Esse é um projeto super legal que desenvolvi durante o evento **NLW eSports**, realizado pela [Rocketseat](https://github.com/Rocketseat) 🚀. 
 
-🔗 [Para ver o resultado, é só clicar aqui](https://github.com/jonasnoliveira/nlw-esports-explorer/). 🔗
+🔗 [Para ver o resultado, é só clicar aqui](https://jonasnoliveira.github.io/nlw-esports-explorer/). 🔗
 
 ## 📋 Conceito
 ![nlw esports banner](././assets/nlw-esports-banner.png)
